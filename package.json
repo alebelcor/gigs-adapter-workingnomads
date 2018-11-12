@@ -1,0 +1,63 @@
+{
+  "name": "gigs-adapter-workingnomads",
+  "version": "0.0.0",
+  "description": "A gigs adapter for Working Nomads",
+  "license": "MIT",
+  "repository": "alebelcor/gigs-adapter-workingnomads",
+  "author": {
+    "name": "Alejandro Beltrán",
+    "email": "alebelcor@gmail.com",
+    "url": "https://github.com/alebelcor"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "clinton && xo && ava"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "keywords": [
+    "gigs",
+    "gigsadapter",
+    "job",
+    "career",
+    "opening",
+    "position",
+    "aggregator",
+    "util",
+    "utility",
+    "fetch"
+  ],
+  "dependencies": {
+    "gigs": "^2.0.0",
+    "got": "^9.3.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "clinton": "^0.14.0",
+    "is-plain-obj": "^1.1.0",
+    "proxyquire": "^2.1.0",
+    "xo": "^0.23.0"
+  },
+  "clinton": {
+    "rules": {
+      "ava": [
+        "error",
+        "0.25.0"
+      ],
+      "xo": [
+        "error",
+        "0.23.0"
+      ]
+    }
+  },
+  "xo": {
+    "space": 2
+  }
+}
