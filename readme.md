@@ -2,6 +2,7 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Working Nomads](https://www.workingnomads.co)
 
+[![npm version](https://img.shields.io/npm/v/gigs-adapter-workingnomads.svg)](https://npmjs.org/package/gigs-adapter-workingnomads)
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-workingnomads/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-workingnomads)
 [![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-workingnomads.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-workingnomads)
 
