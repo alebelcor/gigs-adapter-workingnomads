@@ -3,6 +3,7 @@
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Working Nomads](https://www.workingnomads.co)
 
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-workingnomads/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-workingnomads)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-workingnomads.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-workingnomads)
 
 ## Install
 
