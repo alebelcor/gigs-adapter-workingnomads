@@ -14,7 +14,8 @@
     "node": ">=10"
   },
   "scripts": {
-    "test": "clinton && xo && ava"
+    "test": "clinton && xo && nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "files": [
     "lib",
@@ -41,7 +42,9 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "clinton": "^0.14.0",
+    "coveralls": "^3.0.2",
     "is-plain-obj": "^1.1.0",
+    "nyc": "^13.1.0",
     "proxyquire": "^2.1.0",
     "xo": "^0.23.0"
   },
