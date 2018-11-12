@@ -2,6 +2,8 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Working Nomads](https://www.workingnomads.co)
 
+[![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-workingnomads/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-workingnomads)
+
 ## Install
 
 Ensure you have [Node.js](https://nodejs.org) version 10+ installed. Then run the following:
